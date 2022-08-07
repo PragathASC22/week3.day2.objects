@@ -78,5 +78,18 @@ header{
 
 
 /* START ADDING STUFF HERE! */
+#gridDiv {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+}
 
+.hero_container{
+    display: flex;
+    visibility: 0;
+}
 
+.hero_container img {
+    background-color:#f7931e ;
+    border: 1px solid #00aeff;
+}
